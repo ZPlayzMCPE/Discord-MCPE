@@ -1,17 +1,17 @@
 name: Discord-MCPE
 author: Niekert
-version: "1.0.0"
+version: "2.0.0-ALPHA7-14"
 api:
 - 2.0.0
 - 3.0.0
-- 3.0.0-ALPHA1
-- 3.0.0-ALPHA2
-- 3.0.0-ALPHA3
-- 3.0.0-ALPHA4
-- 3.0.0-ALPHA5
-- 3.0.0-ALPHA6
 - 3.0.0-ALPHA7
 - 3.0.0-ALPHA8
+- 3.0.0-ALPHA9
+- 3.0.0-ALPHA10
+- 3.0.0-ALPHA11
+- 3.0.0-ALPHA12
+- 3.0.0-ALPHA13
+- 3.0.0-ALPHA14
 main: Niekert\DiscordMCPE\Main
 
 commands:
@@ -23,4 +23,4 @@ commands:
 
 permissions:
     discord.send:
-        default: op
+        default: true
